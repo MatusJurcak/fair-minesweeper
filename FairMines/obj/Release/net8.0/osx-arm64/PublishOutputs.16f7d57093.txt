@@ -1,0 +1,3 @@
+/Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/bin/Release/net8.0/osx-arm64/publish/FairMines.pdb
+/Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/bin/Release/net8.0/osx-arm64/publish/libraylib.dylib
+/Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/bin/Release/net8.0/osx-arm64/publish/FairMines

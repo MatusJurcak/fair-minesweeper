@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cjt/IIphMKMxXih5qYK23LE11hgQdgHAjaCI4FHqDHjGwHoU62jn2ZcdWIwzXW32OnAYMaK1WYy5KQkEPOyhzw==",
+  "success": true,
+  "projectFilePath": "/Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/FairMines.csproj",
+  "expectedPackageFiles": [
+    "/Users/lilemdzej/.nuget/packages/microsoft.net.illink.tasks/8.0.3/microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
+    "/Users/lilemdzej/.nuget/packages/raylib-cs/6.1.1/raylib-cs.6.1.1.nupkg.sha512",
+    "/Users/lilemdzej/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/lilemdzej/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.3/microsoft.netcore.app.host.win-x64.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
