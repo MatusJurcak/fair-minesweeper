@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FairMines")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ea45578eb04768a2b12891c1b76abca3a455ee3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FairMines")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FairMines")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

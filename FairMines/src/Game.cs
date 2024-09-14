@@ -23,7 +23,7 @@ public static class Game
     public static int tilesRevealed;
     public static DateTime timeStart;
     public static DateTime timeEnd;
-    public static Cell[,] grid = new Cell[Utils.ROWS,Utils.COLUMNS];
+    public static Cell[,] grid = new Cell[Utils.ROWS, Utils.COLUMNS];
     public static int numOfAllMines;
     public static int numOfUnknownMines;
     private static bool shouldPlaySound = false;
@@ -36,8 +36,8 @@ public static class Game
         Raylib.InitWindow(Utils.SCREEN_WIDTH, Utils.SCREEN_HEIGHT, "Fair minesweeper");
         Raylib.InitAudioDevice();
 
-        Sound loseSound = Raylib.LoadSound("../../../sounds/NAUR.wav");
-        Sound winSound = Raylib.LoadSound("../../../sounds/YIPEEE.wav");
+        Sound loseSound = Raylib.LoadSound("./sounds/NAUR.wav");
+        Sound winSound = Raylib.LoadSound("./sounds/YIPEEE.wav");
 
         Rectangle easyButton = new Rectangle((Utils.SCREEN_WIDTH / 2) - 100, 350, 200, 50);
         Rectangle normalButton = new Rectangle((Utils.SCREEN_WIDTH / 2) - 100, 420, 200, 50);
@@ -229,7 +229,17 @@ public static class Game
     static void DrawTopSection()
     {
         Raylib.DrawRectangle(0, 0, Utils.SCREEN_WIDTH, (Utils.SCREEN_HEIGHT - Utils.GRID_HEIGHT), Color.White);
-        Raylib.DrawText($"Difficulty: {Game.difficulty}", (Utils.SCREEN_WIDTH / 2) - (Raylib.MeasureText($"Difficulty: {Game.difficulty}", 40) / 2), 30, 40, Color.Black);
+        Raylib.DrawText($"Difficulty: {Game.difficulty}",
+            (Utils.SCREEN_WIDTH / 2) - (Raylib.MeasureText($"Difficulty: {Game.difficulty}", 20) / 2), 10, 20,
+            Color.Black);
+        Raylib.DrawText("Q - quit the game", (15), 40,
+            20, Color.Black);
+        Raylib.DrawText("R - restart the game", (15), 70,
+            20, Color.Black); 
+        Raylib.DrawText("F/MouseRight - toggle a flag", (275), 40,
+            20, Color.Black); 
+        Raylib.DrawText("M - toggle debug mode", (275), 70,
+            20, Color.Black);
     }
 
 
@@ -376,7 +386,7 @@ public static class Game
             {
                 if (grid[rowNumber, columnNumber].numOfMinesAround == Utils.MINE)
                 {
-                    bool didRegenerate = generator.ReGenerate(grid[rowNumber, columnNumber]);
+                    bool didRegenerate = generator.Regenerate(grid[rowNumber, columnNumber]);
                     if (didRegenerate)
                     {
                         HandleCellNumberReveal(rowNumber, columnNumber);

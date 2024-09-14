@@ -20,3 +20,4 @@
 /Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Debug/net8.0/FairMines.pdb
 /Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Debug/net8.0/FairMines.genruntimeconfig.cache
 /Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Debug/net8.0/ref/FairMines.dll
+/Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Debug/net8.0/FairMines.sourcelink.json

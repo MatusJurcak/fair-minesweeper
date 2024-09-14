@@ -12,7 +12,7 @@ public class Generator
         PlaceMines(Game.numOfAllMines);
     }
 
-    public bool ReGenerate(Cell cell)
+    public bool Regenerate(Cell cell)
     {
         cell.numOfMinesAround = Utils.NUMBER;
         solver.FindAnyCombination(cell);

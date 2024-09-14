@@ -16,3 +16,4 @@
 /Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Release/net8.0/linux-x64/FairMines.pdb
 /Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Release/net8.0/linux-x64/FairMines.genruntimeconfig.cache
 /Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Release/net8.0/linux-x64/ref/FairMines.dll
+/Users/lilemdzej/Documents/School/Programovanie_2/zapoctak/FairMines/FairMines/obj/Release/net8.0/linux-x64/FairMines.sourcelink.json
